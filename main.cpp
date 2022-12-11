@@ -5,6 +5,14 @@
 using namespace std;
 
 int main(){
+    cout << "\n"
+            "                                                              \n"
+            " _   ___        _______    ____   ____ ___  ____  _____ ____  \n"
+            "| \\ | \\ \\      / | ____|  / ___| / ___/ _ \\|  _ \\| ____|  _ \\ \n"
+            "|  \\| |\\ \\ /\\ / /|  _|    \\___ \\| |  | | | | |_) |  _| | |_) |\n"
+            "| |\\  | \\ V  V / | |___    ___) | |__| |_| |  _ <| |___|  _ < \n"
+            "|_| \\_|  \\_/\\_/  |_____|  |____/ \\____\\___/|_| \\_|_____|_| \\_\\\n"
+            "                                                              " << endl;
     cout << "Welcome to NWE Scorer Suite\n" << endl;
     string ans;
 
@@ -22,7 +30,7 @@ int main(){
         if(ans == "1")
             sessionStart();
         if(ans == "2")
-            addWrestler(wrestler, team);
+            addWrestler();
         if(ans == "3")
             searchWrestler(team);
     }

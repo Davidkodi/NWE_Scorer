@@ -18,7 +18,7 @@ struct Team{
 };
 
 //Adds a Wrestler to the Team List
-Team* addWrestler(Wrestler, Team*);
+Team* addWrestler();
 //Add function to add to the list
 Team* add2Team(Wrestler, Team*);
 //Searches specific wrestler within the current team and returns the wrestler

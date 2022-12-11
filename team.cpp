@@ -4,8 +4,10 @@
 
 #include "team.h"
 
-Team* addWrestler(Wrestler w, Team*& team){
+Team* addWrestler(){
     cout << "Enter first and last name of the wrestler: (FIRST LAST)" << endl;
+    Team* team;
+    Wrestler w;
     cin >> w.firstName >> w.lastName;
 
     Team* t = add2Team(w, team);
