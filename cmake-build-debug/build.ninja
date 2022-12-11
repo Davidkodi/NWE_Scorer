@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: NWE_Scorer
 # Configurations: Debug
 # =============================================================================
 
@@ -61,6 +61,12 @@ build CMakeFiles/untitled.dir/session.cpp.o: CXX_COMPILER__untitled_Debug /home/
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/team.cpp.o: CXX_COMPILER__untitled_Debug /home/davidkodi/CLionProjects/NWE_Scorer/team.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/team.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -69,7 +75,7 @@ build CMakeFiles/untitled.dir/session.cpp.o: CXX_COMPILER__untitled_Debug /home/
 #############################################
 # Link the executable untitled
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/session.cpp.o
+build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/session.cpp.o CMakeFiles/untitled.dir/team.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :

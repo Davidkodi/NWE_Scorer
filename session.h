@@ -3,8 +3,13 @@
 //
 #ifndef SESSIONHEADER
 #define SESSIONHEADER
+struct Session{
+    //Meet, Tournament, Dual
+    int type;
+};
+
 #include <iostream>
 using namespace std;
-void sessionStart();
+Session sessionStart();
 
 #endif
